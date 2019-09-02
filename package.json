@@ -1,0 +1,21 @@
+{
+  "name": "iamstr",
+  "version": "1.0.0",
+  "description": "this is my portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iamstr",
+    "iamsatar",
+    "frontend",
+    "backend",
+    "fullstack"
+  ],
+  "author": "iamsatar",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

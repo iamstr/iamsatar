@@ -1,0 +1,26 @@
+@mixin color-text {
+    color: $header-color;
+}
+
+@mixin text-bold {
+
+    font-weight: 900;
+
+}
+
+
+@mixin headers($color, $right, $font) {
+    @include testimonials($color, $font);
+    transform: rotate(90deg);
+    position: absolute;
+    right: $right;
+    top: 40%;
+}
+
+@mixin testimonials($color, $font) {
+
+    font-size: $font;
+    color: $color;
+    text-transform: uppercase;
+
+}

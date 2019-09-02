@@ -1,0 +1,305 @@
+body {
+
+    background: linear-gradient(to bottom, #FFFBFA, #D9D3D1);
+}
+
+.hero {
+
+    position: relative;
+    height: 30em;
+
+    &-text {
+
+        text-align: center;
+
+
+    }
+
+    &-header {
+
+
+        @include color-text;
+        text-transform: uppercase;
+        font-family: $roboto;
+        font-size: 20.2em;
+        font-weight: 900;
+        margin-top: 0.6em;
+        @include text-bold;
+
+    }
+
+
+}
+
+
+.hero .hero-text h4.hero-sub {
+
+    text-align: left;
+    @include color-text;
+    position: absolute;
+    top: 0;
+    left: 13.2%;
+    font-size: 2.5em;
+}
+
+
+.nav-link {
+    @include color-text;
+
+}
+
+.nav-list {
+
+    list-style: none;
+}
+
+
+.my-9 {
+
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+}
+
+button.btn.btn-lg.btn-absolute.btn-black {
+
+    top: 110%;
+    left: 33%;
+
+}
+
+
+.about {
+    background: $button-color;
+    position: relative;
+    height: 70.5em;
+
+
+    &-header {
+
+        @include headers($header-color, -1.8em, 12em);
+    }
+
+    &-text {
+
+        color: #ffffff;
+        font-family: $roboto;
+
+        padding-left: 0.2em;
+
+        font-size: 42em;
+
+
+    }
+
+    &-position {
+
+        color: white;
+        position: absolute;
+        left: 20%;
+        top: 40%;
+        padding-left: 0.5em;
+        font-size: 2.5em;
+        padding-right: 1em;
+        width: 60%;
+    }
+
+    &-watermark {
+        color: #ffffff;
+        opacity: 0.1;
+        text-transform: uppercase;
+        font-size: 12em;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+
+
+    }
+}
+
+
+.stack {
+
+
+    position: relative;
+    height: 20em;
+    margin-top: 15em;
+
+    &-header {
+
+        @include headers($header-color_2, -0.7em, 12em);
+    }
+
+    &-img {
+
+        position: absolute;
+        top: 50%;
+        left: 15%;
+
+        img.icons {
+
+            width: 6em;
+            padding: 0 0.5em;
+
+        }
+    }
+}
+
+.portfolio {
+
+    background: $button-color;
+    margin-top: 25em;
+
+    &-header {
+
+        color: $header-color_3;
+        font-size: 10em;
+        text-transform: uppercase;
+        text-align: center;
+
+        span.portfolio-span {
+
+            color: #F9F9F9;
+        }
+    }
+
+    &-container {
+
+        padding-bottom: 17em;
+        padding-top: 5em;
+        // margin-bottom: 0.5rem;
+    }
+
+    .project {
+
+
+        &-name {}
+
+        &-logo {
+
+            width: 23.3em;
+        }
+    }
+}
+
+
+.testimonial {
+
+    padding-bottom: 5em;
+    padding-top: 5em;
+    background: #FFFBFA;
+
+    &-header {
+        @include testimonials($header-color_3, 10em);
+        text-align: center;
+    }
+
+    &-words {
+        text-align: left;
+        width: 40%;
+        margin: 3em auto;
+        color: rgba(68, 67, 67, 0.726);
+        font-size: 1em;
+        line-height: 2.2em;
+        border: #D9D3D1 1 px solid;
+        background: #E8DCDC;
+        padding: 3em 1.5em;
+
+        p {
+            font-family: $roboto;
+            font-weight: 400;
+
+        }
+
+        .blockquote-footer {
+
+            font-family: $roboto;
+            font-weight: 700;
+        }
+    }
+}
+
+
+.reach {
+
+    // background-image: url('../../assets/images/github_prof_pic.jpg');
+    // background-attachment: fixed;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // height: 100%;
+
+
+
+    position: relative;
+    height: 50em;
+
+
+    &-header {
+
+        @include headers($header-color_2, -0.7em, 9em);
+    }
+
+    &-form {
+
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 8em;
+
+
+
+        .form-control:focus {
+
+            background-color: lightgrey;
+
+            outline: 0;
+            box-shadow: 0 0 0.3rem 0.2rem rgba(0, 0, 0, 0.25);
+        }
+
+        label {
+
+            font-family: 'Monserrat', sans-serif;
+            font-weight: 700;
+            color: grey;
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+
+        button {
+
+            color: #FFFBFA;
+            background-color: $button-color__2;
+            padding: 0.5rem 3.8rem;
+            font-size: 1.2rem;
+            font-family: 'Monserrat', sans-serif;
+        }
+    }
+}
+
+.footer {
+
+    background: #FFFBFA;
+    padding: 3em 12em;
+
+
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    a {
+
+        color: rgb(20, 20, 20);
+
+        &-:hover {
+
+            color: #000;
+        }
+    }
+}
