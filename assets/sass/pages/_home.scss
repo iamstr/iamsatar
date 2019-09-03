@@ -303,3 +303,70 @@ button.btn.btn-lg.btn-absolute.btn-black {
         }
     }
 }
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    body {
+
+        font-size: 5px;
+        overflow-x: hidden;
+    }
+
+    .hero-header {
+        font-size: 19.6em;
+    }
+
+    .hero .hero-text h4.hero-sub {
+
+        top: 0;
+        left: 4%;
+        font-size: 3.0em;
+    }
+
+    .about-position {
+
+        left: 17.5%;
+        top: 37%;
+        padding-left: 2.2em;
+        font-size: 2.7em;
+        padding-right: 1em;
+        width: 60%;
+    }
+
+
+
+    .testimonial-words {
+
+        width: 70%;
+
+        font-size: 3.0em;
+        line-height: 2.2em;
+
+    }
+
+
+    .reach-form button {
+
+        font-size: 0.5rem;
+        font-family: "Monserrat", sans-serif;
+        padding: 0.5rem 1rem;
+    }
+
+
+    .reach {
+
+        height: 70em;
+        margin-bottom: 10em;
+    }
+
+
+    .reach-form {
+
+        padding-top: 8em;
+        padding-bottom: 8em;
+    }
+
+
+}
