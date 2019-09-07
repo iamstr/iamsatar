@@ -1,3 +1,9 @@
+body,
+html {
+
+    overflow-x: hidden;
+}
+
 body {
 
     background: linear-gradient(to bottom, #FFFBFA, #D9D3D1);
@@ -38,7 +44,7 @@ body {
     @include color-text;
     position: absolute;
     top: 0;
-    left: 13.2%;
+    left: 17.2%;
     font-size: 2.5em;
 }
 
@@ -368,5 +374,32 @@ button.btn.btn-lg.btn-absolute.btn-black {
         padding-bottom: 8em;
     }
 
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    //CSS
+
+    body {
+
+        font-size: 0.5em;
+    }
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    //CSS
+
+    body {
+
+        font-size: 0.5em;
+    }
 
 }
