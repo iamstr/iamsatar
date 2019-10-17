@@ -44,7 +44,7 @@ body {
     @include color-text;
     position: absolute;
     top: 0;
-    left: 17.2%;
+    left: 13.2%;
     font-size: 2.5em;
 }
 
@@ -327,7 +327,7 @@ button.btn.btn-lg.btn-absolute.btn-black {
     .hero .hero-text h4.hero-sub {
 
         top: 0;
-        left: 4%;
+        left: 4.5%;
         font-size: 3.0em;
     }
 
@@ -374,10 +374,17 @@ button.btn.btn-lg.btn-absolute.btn-black {
         padding-bottom: 8em;
     }
 
-
+    div.project {
+        margin-left: 8.5em;
+    }
 }
 
 
+@media (max-width: 1000px) and (min-width: 768px) {
+    body div.project.row.no-gutters {
+        margin-left: 5.0em;
+    }
+}
 
 @media (min-width: 481px) and (max-width: 767px) {
 
@@ -400,6 +407,35 @@ button.btn.btn-lg.btn-absolute.btn-black {
     body {
 
         font-size: 0.5em;
+
+
+
+
+        div.project.row.no-gutters {
+            margin-left: 8.5em;
+        }
     }
 
+
+
 }
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    //CSS
+
+    .hero .hero-text h4.hero-sub {
+
+        left: 22.2%;
+
+
+
+
+    }

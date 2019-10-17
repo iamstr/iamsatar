@@ -9951,6 +9951,15 @@ button.btn.btn-lg.btn-absolute.btn-black, .btn-group-lg > button.btn.btn-absolut
     padding-top: 8em;
     padding-bottom: 8em;
   }
+
+  div.project {
+    margin-left: 8.5em;
+  }
+}
+@media (max-width: 1000px) and (min-width: 768px) {
+  div.project.row.no-gutters {
+    margin-left: 5em;
+  }
 }
 @media (min-width: 481px) and (max-width: 767px) {
   body {
@@ -9960,6 +9969,9 @@ button.btn.btn-lg.btn-absolute.btn-black, .btn-group-lg > button.btn.btn-absolut
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
     font-size: 0.5em;
+  }
+  body div.project.row.no-gutters {
+    margin-left: 8.5em;
   }
 }
 

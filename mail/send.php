@@ -52,7 +52,7 @@ try {
     $mail->Username = 'contact@iamsatar.com';                 // SMTP username
     $mail->Password = '8rY6HRt@ot5A)6';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 465;// TCP port to connect to
+    $mail->Port = 587;// TCP port to connect to
 
 
     $mail->setFrom($qoute_email,$qoute_name);
