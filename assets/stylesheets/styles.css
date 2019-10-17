@@ -9708,7 +9708,7 @@ body {
   color: #707070;
   position: absolute;
   top: 0;
-  left: 17.2%;
+  left: 13.2%;
   font-size: 2.5em;
 }
 
@@ -9917,7 +9917,7 @@ button.btn.btn-lg.btn-absolute.btn-black, .btn-group-lg > button.btn.btn-absolut
 
   .hero .hero-text h4.hero-sub {
     top: 0;
-    left: 4%;
+    left: 4.5%;
     font-size: 3em;
   }
 
@@ -9957,7 +9957,7 @@ button.btn.btn-lg.btn-absolute.btn-black, .btn-group-lg > button.btn.btn-absolut
   }
 }
 @media (max-width: 1000px) and (min-width: 768px) {
-  div.project.row.no-gutters {
+  body div.project.row.no-gutters {
     margin-left: 5em;
   }
 }
@@ -9972,6 +9972,11 @@ button.btn.btn-lg.btn-absolute.btn-black, .btn-group-lg > button.btn.btn-absolut
   }
   body div.project.row.no-gutters {
     margin-left: 8.5em;
+  }
+}
+@media (max-width: 1024px) {
+  .hero .hero-text h4.hero-sub {
+    left: 22.2%;
   }
 }
 
